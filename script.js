@@ -25,6 +25,6 @@ function simulateRestore() {
 
 // run when button clicked
 restoreBtn.addEventListener("click", (event) => {
-  event.preventDefault(); // stop form reload
+  event.preventDefault(); // stop reload
   simulateRestore(); // call function
 });
